@@ -63,7 +63,7 @@ def main():
             2. Juwayriya Mohamed Hassan text book with 
             3. Hassan Abdi Mohamed assisant juwriya
             4. Bian Abdullahi Said assisanat with mohamed
-            5. Abdihaliim a leader an other group who assisant with my project
+         
         
 
             Variable descrpition:
