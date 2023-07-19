@@ -89,7 +89,7 @@ def main():
             oceanProximity: Location of the house w.r.t ocean/sea.
             
                 """)
-         if st.Dashboard("Dashboard"):
+         if st.button("Dashboard"):
         st.text(" House Price Prediction")
 
               
