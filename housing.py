@@ -89,9 +89,7 @@ def main():
             oceanProximity: Location of the house w.r.t ocean/sea.
             
                 """)
-         if st.button("contact"):
-        st.text(" House Price Prediction")
-        st.txt("email and adress")
+      
 
               
         st.text("Built with Streamlit")
