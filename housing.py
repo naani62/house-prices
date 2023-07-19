@@ -59,10 +59,10 @@ def main():
         st.text(" House Price Prediction")
         st.text(" The Team")
         st.text("""
-            1. Mohamed Ali Ibrahim, Group Leader
-            2. Juwayriya Mohamed Hassan
-            3. Hassan Abdi Mohamed
-            4. Bian Abdullahi Said
+            1. Mohamed Ali Ibrahim, Group Leader who bulding the system
+            2. Juwayriya Mohamed Hassan text book with 
+            3. Hassan Abdi Mohamed assisant juwriya
+            4. Bian Abdullahi Said assisanat with mohamed
         
 
             Variable descrpition:
