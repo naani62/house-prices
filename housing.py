@@ -2,6 +2,7 @@
 import numpy as np
 import pickle
 import pandas as pd
+import catboost
 from catboost import CatBoostRegressor
 import streamlit as st 
 
