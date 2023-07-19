@@ -90,7 +90,7 @@ def main():
             
                 """)
         if choices=='Predicted House':
-    st.subheader("Predicted House")
+    #st.subheader("Predicted House")
     st.info("expand to see data clearly")
     if os.path.exists("db.csv"):
         data = pd.read_csv('db.csv')
