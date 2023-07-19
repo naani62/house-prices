@@ -56,20 +56,16 @@ def main():
 
 
     if st.button("About"):
-        st.text(" Predictive Analysis Project Using Python")
-        st.text(" Background of the dataset")
+        st.text(" House Price Prediction")
+        st.text(" The Team")
         st.text("""
-            The data contains information from the 1990 California census. 
-            So although it may not help you with predicting current housing prices like the Zillow Zestimate dataset,
-            it does provide an accessible introductory dataset for teaching people about the basics of machine learning.
-            The data pertains to the houses found in a given California district and some summary stats 
-            about them based on the 1990 census data. Be warned the data aren't cleaned 
-            so there are some preprocessing steps required! The columns are as follows, 
-            their names are pretty self explanitory:longitude, latitude, housing_median_age, 
-            total_rooms, total_bedrooms, population, households, median_income, median_house_value, 
-            ocean_proximity.
+            1. Mohamed Ali Ibrahim, Group Leader
+            2. Juwayriya Mohamed Hassan
+            3. Hassan Abdi Mohamed
+            4. Bian Abdullahi Said
+        
 
-            variable descrition:
+            Variable descrpition:
 
             longitude: A measure of how far west a house is; a higher value is farther west.
 
