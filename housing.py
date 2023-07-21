@@ -157,6 +157,7 @@ max_list = [190.0,
 count = 0
 
 with st.sidebar:
+    
     for i in range(len(name_list)):
         variable_name = name_list[i]
         globals()[variable_name] = st.slider(description_list[i] ,min_value=int(min_list[i]), max_value =int(max_list[i]),step=1)
