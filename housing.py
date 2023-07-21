@@ -58,7 +58,7 @@ def main():
     if st.button("About"):
         st.text(" House Price Prediction")
         st.text(" The Team")
-        st.text(
+        st.text("""
     
             1. Mohamed Ali Ibrahim, Group Leader who bulding the system
             2. Juwayriya Mohamed Hassan text book with 
