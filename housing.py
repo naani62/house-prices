@@ -93,7 +93,7 @@ def main():
 
               
         st.text("Built with mohamed ali using Streamlit")
-        data = data[name_list_train].values
+data = data[name_list_train].values
 
 scaler.fit(data)
 
