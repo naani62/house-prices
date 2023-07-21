@@ -55,7 +55,7 @@ def main():
         st.success('The Prediction Price Based on your Requirement is {}'.format(formatted_result))
          
     if st.button("About"):
-    st.text(" House Price Prediction")
+        st.text(" House Price Prediction")
         st.text(" The Team")
         st.text("""
     
