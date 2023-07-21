@@ -90,10 +90,10 @@ def main():
             
                 """)
       
-
+  if st.button("menu"):
               
         st.text("Built with mohamed ali using Streamlit")
-         if st.button("About"):
+       
 
 if __name__=='__main__':
     main()
