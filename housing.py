@@ -53,7 +53,14 @@ def main():
         result = predict_california_house_price(house_age, total_rooms, total_bedrooms, population, households, median_income)
         formatted_result = "${:.4f}".format(result.item())
         st.success('The Prediction Price Based on your Requirement is {}'.format(formatted_result))
-         
+    if st.button("menu"):
+        st.text(" House Price Prediction")
+        st.text(" The Team")
+        st.text("""
+
+
+
+    
     if st.button("About"):
         st.text(" House Price Prediction")
         st.text(" The Team")
@@ -89,8 +96,7 @@ def main():
             oceanProximity: Location of the house w.r.t ocean/sea.
             
                 """)
-      
-  if st.button("menu"):
+
               
         st.text("Built with mohamed ali using Streamlit")
        
