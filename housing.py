@@ -93,9 +93,10 @@ def main():
 
               
         st.text("Built with mohamed ali using Streamlit")
-     data = data[name_list_train].values
-     scaler.fit(data)
-     description_list = [
+     
+    data = data[name_list_train].values
+    scaler.fit(data)
+    description_list = [
  'What is the building class?',
  'What is the Overall material and finish quality?',
  'In which year was the Original construction date?',
