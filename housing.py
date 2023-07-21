@@ -56,7 +56,7 @@ def main():
          
         
        
- if st.button("About"):
+     if st.button("About"):
     
         st.text(" House Price Prediction")
         st.text(" The Team")
