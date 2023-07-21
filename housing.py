@@ -57,13 +57,14 @@ def main():
         
        
  if st.button("About"):
-      html_temp = """
-    <div style="background-color:tomato;padding:10px">
-    <h2 style="color:white;text-align:center;">Streamlit House Prices Prediction ML App </h2>
-    </div
+    
         st.text(" House Price Prediction")
         st.text(" The Team")
         st.text("""
+          html_temp = """
+    <div style="background-color:tomato;padding:10px">
+    <h2 style="color:white;text-align:center;">Streamlit House Prices Prediction ML App </h2>
+
             1. Mohamed Ali Ibrahim, Group Leader who bulding the system
             2. Juwayriya Mohamed Hassan text book with 
             3. Hassan Abdi Mohamed assisant juwriya
@@ -94,7 +95,7 @@ def main():
             oceanProximity: Location of the house w.r.t ocean/sea.
             
                 """)
-       
+           </div>
       
 
               
