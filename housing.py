@@ -54,11 +54,8 @@ def main():
         formatted_result = "${:.4f}".format(result.item())
         st.success('The Prediction Price Based on your Requirement is {}'.format(formatted_result))
          
-        
-       
-     if st.button("About"):
-    
-        st.text(" House Price Prediction")
+    if st.button("About"):
+    st.text(" House Price Prediction")
         st.text(" The Team")
         st.text("""
     
