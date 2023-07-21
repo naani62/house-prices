@@ -55,11 +55,12 @@ def main():
         st.success('The Prediction Price Based on your Requirement is {}'.format(formatted_result))
          
         
-        html_temp = """
+       
+ if st.button("About"):
+      html_temp = """
     <div style="background-color:tomato;padding:10px">
     <h2 style="color:white;text-align:center;">Streamlit House Prices Prediction ML App </h2>
-    </div>
- if st.button("About"):
+    </div
         st.text(" House Price Prediction")
         st.text(" The Team")
         st.text("""
