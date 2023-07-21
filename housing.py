@@ -92,7 +92,7 @@ def main():
       
 
               
-        st.text("Built with Streamlit")
+        st.text("Built with mohamed ali using Streamlit")
 
 if __name__=='__main__':
     main()
