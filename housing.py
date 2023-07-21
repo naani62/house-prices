@@ -53,9 +53,13 @@ def main():
         result = predict_california_house_price(house_age, total_rooms, total_bedrooms, population, households, median_income)
         formatted_result = "${:.4f}".format(result.item())
         st.success('The Prediction Price Based on your Requirement is {}'.format(formatted_result))
-
-
-    if st.button("About"):
+         
+        
+        html_temp = """
+    <div style="background-color:tomato;padding:10px">
+    <h2 style="color:white;text-align:center;">Streamlit House Prices Prediction ML App </h2>
+    </div>
+ if st.button("About"):
         st.text(" House Price Prediction")
         st.text(" The Team")
         st.text("""
