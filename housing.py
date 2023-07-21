@@ -64,7 +64,9 @@ def main():
     if st.button("About"):
         st.text(" House Price Prediction")
         st.text(" The Team")
-        st.text("""
+        st.text("""hdhdbdedbbh
+        duhedeudhd
+        dy
         st.text("Built with mohamed ali using Streamlit")
     
             1. Mohamed Ali Ibrahim, Group Leader who bulding the system
