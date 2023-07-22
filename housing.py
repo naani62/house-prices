@@ -41,7 +41,7 @@ def main():
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
-    house_age = st.text_input("House Age","Type Here")
+    house_age = st.text_input("House Age","")
     total_rooms = st.text_input("Total Rooms","Type Here")
     total_bedrooms = st.text_input("Total Bedrooms","Type Here")
     population = st.text_input("Population","Type Here")
