@@ -42,7 +42,7 @@ def main():
     """
     st.markdown(html_temp,unsafe_allow_html=True)
     latitude = st.text_input("latitude","Type Here")
-    house_age = st.text_input("House Age","value=0.0,format='%f',step=1.0"))
+    house_age = st.text_input("House Age","))
     total_rooms = st.text_input("Total Rooms","Type Here")
     total_bedrooms = st.text_input("Total Bedrooms","Type Here")
     population = st.text_input("Population","Type Here")
