@@ -42,12 +42,16 @@ def main():
     """
     st.markdown(html_temp,unsafe_allow_html=True)
     longitude = st.text_input("longitude","Type Here")
+    latitude = st.text_input("latitude","Type Here")
     house_age = st.text_input("House Age","Type Here")
     total_rooms = st.text_input("Total Rooms","Type Here")
     total_bedrooms = st.text_input("Total Bedrooms","Type Here")
     population = st.text_input("Population","Type Here")
     households = st.text_input("Households","Type Here")
     median_income = st.text_input("Median Income","Type Here")
+    median_house_value = st.text_input(" median_house_value","Type Here")
+    ocean_proximity = st.text_input(" ocean_proximity","Type Here")
+   
     
     result=""
     if st.button("Predict"):
