@@ -41,15 +41,16 @@ def main():
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
-    latitude = st.text_input("latitude","Type Here")
-    house_age = st.text_input("House Age","Type Here")
-    total_rooms = st.text_input("Total Rooms","Type Here")
-    total_bedrooms = st.text_input("Total Bedrooms","Type Here")
-    population = st.text_input("Population","Type Here")
-    households = st.text_input("Households","Type Here")
-    median_income = st.text_input("Median Income","Type Here")
-    median_house_value = st.text_input(" median_house_value","Type Here")
-    ocean_proximity = st.text_input(" ocean_proximity","Type Here")
+    longitude = st.text_input("longitude","Enter longitude")
+    latitude = st.text_input("latitude","Enter latitude")
+    house_age = st.text_input("House Age","Enter house_age")
+    total_rooms = st.text_input("Total Rooms","Enter total_rooms")
+    total_bedrooms = st.text_input("Total Bedrooms","Enter total_bedrooms")
+    population = st.text_input("Population","Enter population")
+    households = st.text_input("Households","Enter households")
+    median_income = st.text_input("Median Income","Enter median_income")
+    median_house_value = st.text_input(" median_house_value","Enter median_house_value")
+    ocean_proximity = st.text_input(" ocean_proximity","Enter ocean_proximity")
    
     
     result=""
