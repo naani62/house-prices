@@ -41,9 +41,8 @@ def main():
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
- GrLivArea= st.number_input("Enter Ground Floor Living Area (in Sqft)",value=0,min_value=0,format='%d')
     latitude = st.text_input("latitude","Type Here")
-    house_age = st.text_input("House Age","Type Here")
+    house_age = st.text_input("House Age","Type Here",value=0.0,format='%f',step=1.0))
     total_rooms = st.text_input("Total Rooms","Type Here")
     total_bedrooms = st.text_input("Total Bedrooms","Type Here")
     population = st.text_input("Population","Type Here")
