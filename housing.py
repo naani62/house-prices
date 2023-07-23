@@ -58,7 +58,10 @@ def main():
         result = predict_california_house_price(house_age, total_rooms, total_bedrooms, population, households, median_income)
         formatted_result = "${:.4f}".format(result.item())
         st.success('The Prediction Price Based on your Requirement is {}'.format(formatted_result))
-    
+    st.title("House Pricing  prdection using machine learning Analysis")
+
+menu=["House Prediction","Predicted House","About","Visual"]
+choices=st.sidebar.selectbox("Menu Bar",menu)
 
     if st.button("About"):
         st.text(" House Price Prediction")
