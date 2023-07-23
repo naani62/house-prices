@@ -34,7 +34,7 @@ def predict_california_house_price(house_age, total_rooms, total_bedrooms, popul
 
 
 def main():
-    st.title("California House Price Prediction App")
+    st.title("California House Price Prediction using machine learning")
     html_temp = """
     <div style="background-color:tomato;padding:10px">
     <h2 style="color:white;text-align:center;">Streamlit House Prices Prediction ML App </h2>
