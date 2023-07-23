@@ -60,8 +60,6 @@ def main():
         st.success('The Prediction Price Based on your Requirement is {}'.format(formatted_result))
     st.title("House Pricing  prdection using machine learning Analysis")
 
-menu=["House Prediction","Predicted House","menu","Visual"]
-choices=st.sidebar.selectbox("Menu Bar",menu)
 
     if st.button("About"):
         st.text(" House Price Prediction")
