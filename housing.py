@@ -133,7 +133,7 @@ def main():
     st.write("- Tom: QA Tester")
 
     # Add a group photo
-    group_photo = Image.open("group_photo.jpg")
+    group_photo = Image.open("download.jpg")
     st.image(group_photo, caption="Our Team Photo", use_column_width=True)
 
 if __name__ == "__main__":
