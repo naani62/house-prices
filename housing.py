@@ -66,7 +66,7 @@ def main():
         st.text(" House Price Prediction")
         st.text(" The Team")
         st.text("""
-            1. Mohamed Ali Ibrahim, Group Leader who bulding the system
+                    1. Mohamed Ali Ibrahim, Group Leader who bulding the system
             2. Juwayriya Mohamed Hassan text book with 
             3. Hassan Abdi Mohamed assisant juwriya
             4. Bian Abdullahi Said assisanat with mohamed
@@ -96,16 +96,6 @@ def main():
             oceanProximity: Location of the house w.r.t ocean/sea.
             
                 """)
-
-              
-        st.text("Built with mohamed ali using Streamlit")
-     
-    
-       
-
-if __name__=='__main__':
-    main()
-   
 def main():
     st.title("Our Team's Work")
 
@@ -134,6 +124,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+              
+        st.text("Built with mohamed ali using Streamlit")
+     
+    
+       
+
+if __name__=='__main__':
+    main()
+   
 
 
 
