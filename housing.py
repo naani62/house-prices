@@ -1,3 +1,10 @@
+st.title("housr prices prdection")
+
+st.write("You have entered", st.session_state["my_input"])
+
+
+
+
 import streamlit as st
 
 st.set_page_config(
