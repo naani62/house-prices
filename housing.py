@@ -111,9 +111,9 @@ def main():
     st.title("Our Team's Work")
 
     # Load the images
-    image1 = Image.open("work1.jpg")
-    image2 = Image.open("work2.jpg")
-    image3 = Image.open("work3.jpg")
+    image1 = Image.open("download.jpg")
+    image2 = Image.open("download.jpg")
+    image3 = Image.open("download.jpg")
 
     # Display the images with captions
     st.image(image1, caption="Work 1", use_column_width=True)
