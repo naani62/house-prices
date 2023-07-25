@@ -147,8 +147,9 @@ def main():
 
     # Add some text about the team
     st.header("Meet Our Team")
-    st.write("We are a group of friends who love to work together on various projects. Our team consists of:")
-    st.write("- John: Project Manager")
+    st.write("We are a group of friends who love to work together on house price prdection projects. Our team consists of:")
+    st.write("- mohamed Ali: leadear of group")
+    image1 = Image.open("WhatsApp Image 2023-07-25 at 6.20.10 PM.jpeg")
     st.write("- Jane: Designer")
     st.write("- Bob: Developer")
     st.write("- Sarah: Content Creator")
