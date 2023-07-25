@@ -5,7 +5,6 @@ import pandas as pd
 import catboost
 from catboost import CatBoostRegressor
 import streamlit as st 
-import image
 
 from PIL import Image
 from PIL import Image
