@@ -16,6 +16,12 @@ submit = st.button("Submit")
 if submit:
     st.session_state["my_input"] = my_input
     st.write("You have entered: ", my_input)
+    import streamlit as st
+
+
+st.title("Projects")
+
+st.write("You have entered", st.session_state["my_input"])
 
 
 
