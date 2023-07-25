@@ -106,7 +106,34 @@ def main():
 if __name__=='__main__':
     main()
    
+def main():
+    st.title("Our Team's Work")
 
+    # Load the images
+    image1 = Image.open("work1.jpg")
+    image2 = Image.open("work2.jpg")
+    image3 = Image.open("work3.jpg")
+
+    # Display the images with captions
+    st.image(image1, caption="Work 1", use_column_width=True)
+    st.image(image2, caption="Work 2", use_column_width=True)
+    st.image(image3, caption="Work 3", use_column_width=True)
+
+    # Add some text about the team
+    st.header("Meet Our Team")
+    st.write("We are a group of friends who love to work together on various projects. Our team consists of:")
+    st.write("- John: Project Manager")
+    st.write("- Jane: Designer")
+    st.write("- Bob: Developer")
+    st.write("- Sarah: Content Creator")
+    st.write("- Tom: QA Tester")
+
+    # Add a group photo
+    group_photo = Image.open("group_photo.jpg")
+    st.image(group_photo, caption="Our Team Photo", use_column_width=True)
+
+if __name__ == "__main__":
+    main()
 
 
 
