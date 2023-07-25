@@ -163,20 +163,29 @@ def main():
 if __name__ == "__main__":
     main()
 
+
 def main():
-    st.title("My Image App")
+    st.title("Our Team's Work System")
 
-    # Load the image and resize it
-    image = Image.open("WhatsApp Image 2023-07-25 at 6.21.24 PM.jpeg")
-    resized_image = image.resize((500, int(image.size[1] * (500 / image.size[0]))))
+    # Load the images and resize them
+    image1 = Image.open("teamwork1.jpg")
+    image1 = image1.resize((300, 300))
+    image2 = Image.open("teamwork2.jpg")
+    image2 = image2.resize((300, 300))
+    image3 = Image.open("teamwork3.jpg")
+    image3 = image3.resize((300, 300))
 
-    # Display the resized image
-    st.image(resized_image, caption="My Resized Image", use_column_width=True)
+    # Display the resized images with captions
+    st.image(image1, caption="Step 1: Planning", use_column_width=True)
+    st.image(image2, caption="Step 2: Execution", use_column_width=True)
+    st.image(image3, caption="Step 3: Review", use_column_width=True)
+
+    # Add some text about the team's work system
+    st.header("Our Team's Work System")
+    st.write("We follow a three-step work system to ensure that our projects are completed efficiently and effectively. The three steps are:")
+    st.write("1. Planning: We plan the project and set clear goals and timelines.")
+    st.write("2. Execution: We execute the project according to the plan and communicate regularly to ensure that everything is on track.")
+    st.write("3. Review: We review the project to identify areas for improvement and to ensure that the project meets our standards.")
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
