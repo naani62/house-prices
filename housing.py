@@ -134,6 +134,7 @@ def main():
 
     # Load the images
     image1 = Image.open("WhatsApp Image 2023-07-25 at 6.20.10 PM.jpeg")
+    resized_image = image.resize((200, int(image.size[1] * (100 / image.size[0]))))
     
     image2 = Image.open("WhatsApp Image 2023-07-25 at 6.21.24 PM.jpeg")
    
