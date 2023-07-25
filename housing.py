@@ -163,6 +163,22 @@ def main():
 if __name__ == "__main__":
     main()
 
+import streamlit as st
+from PIL import Image
+
+def main():
+    st.title("My Image App")
+
+    # Load the image and resize it
+    image = Image.open("WhatsApp Image 2023-07-25 at 6.21.24 PM.jpeg")
+    resized_image = image.resize((500, int(image.size[1] * (500 / image.size[0]))))
+
+    # Display the resized image
+    st.image(resized_image, caption="My Resized Image", use_column_width=True)
+
+if __name__ == "__main__":
+    main()
+
 
 
 
