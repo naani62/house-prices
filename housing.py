@@ -7,6 +7,13 @@ from catboost import CatBoostRegressor
 import streamlit as st 
 
 from PIL import Image
+from PIL import Image
+def main():
+    st.title("California House Price Prediction using machine learning")
+    image = Image.open('image_file.jpg')
+    st.image(image, caption='California House Price Prediction', use_column_width=True)
+
+    # Rest of the code   
 
 pickle_in = open("classifier.pkl","rb")
 classifier=pickle.load(pickle_in)
@@ -106,13 +113,7 @@ if __name__=='__main__':
     main()
    
 
-from PIL import Image
-def main():
-    st.title("California House Price Prediction using machine learning")
-    image = Image.open('image_file.jpg')
-    st.image(image, caption='California House Price Prediction', use_column_width=True)
 
-    # Rest of the code   
 
 
 
