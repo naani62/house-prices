@@ -133,11 +133,11 @@ def main():
     st.title("Our Team's Work")
 
     # Load the images
-    image1 = Image.open("download.jpg")
+    image1 = Image.open("WhatsApp Image 2023-07-25 at 6.20.10 PM.jpg")
     
-    image2 = Image.open("download.jpg")
+    image2 = Image.open("WhatsApp Image 2023-07-25 at 6.20.10 PM.jpg")
    
-    image3 = Image.open("download.jpg")
+    image3 = Image.open("WhatsApp Image 2023-07-25 at 6.20.10 PM.jpg")
   
 
     # Display the images with captions
