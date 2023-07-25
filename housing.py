@@ -169,11 +169,11 @@ def main():
 
     # Load the images and resize them
     image1 = Image.open("teamwork1.jpg")
-    image1 = image1.resize((300, 300))
-    image2 = Image.open("teamwork2.jpg")
-    image2 = image2.resize((300, 300))
+   
+    image2 = Image.open("WhatsApp Image 2023-07-25 at 6.21.24 PM (1).jpeg")
+  
     image3 = Image.open("teamwork3.jpg")
-    image3 = image3.resize((300, 300))
+  
 
     # Display the resized images with captions
     st.image(image1, caption="Step 1: Planning", use_column_width=True)
