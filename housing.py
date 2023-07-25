@@ -135,7 +135,7 @@ def main():
     # Load the images
     image1 = Image.open("WhatsApp Image 2023-07-25 at 6.20.10 PM.jpeg")
     
-    image2 = Image.open("WhatsApp Image 2023-07-25 at 6.20.10 PM.jpeg")
+    image2 = Image.open("WhatsApp Image 2023-07-25 at 6.21.24 PM.jpeg")
    
     image3 = Image.open("WhatsApp Image 2023-07-25 at 6.20.10 PM.jpeg")
   
