@@ -10,11 +10,14 @@ import image
 from PIL import Image
 from PIL import Image
 def main():
-    st.title("California House Price Prediction using machine learning")
-    image = Image.open('JPG File (.jpg)')
-    st.image(image, caption='California House Price Prediction', use_column_width=True)
+    st.title("My App")
 
-    # Rest of the code   
+    # Load the image
+    image = Image.open("button_JPG File (.jpg)")
+
+    # Add the image to a button
+    if st.button("image ", image=image):
+        st.write("Button clicked!")
 
 pickle_in = open("classifier.pkl","rb")
 classifier=pickle.load(pickle_in)
