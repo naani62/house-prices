@@ -96,6 +96,17 @@ def main():
             oceanProximity: Location of the house w.r.t ocean/sea.
             
                 """)
+
+              
+        st.text("Built with mohamed ali using Streamlit")
+     
+    
+       
+
+if __name__=='__main__':
+    main()
+   
+
 def main():
     st.title("Our Team's Work")
 
@@ -124,17 +135,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-              
-        st.text("Built with mohamed ali using Streamlit")
-     
-    
-       
-
-if __name__=='__main__':
-    main()
-   
-
 
 
 
