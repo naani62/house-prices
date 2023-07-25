@@ -167,15 +167,12 @@ if __name__ == "__main__":
 def main():
     st.title("Our Team's Work System")
 
-    # Load the images and resize them
-    image1 = Image.open("teamwork1.jpg")
-   
-    image2 = Image.open("WhatsApp Image 2023-07-25 at 6.21.24 PM (1).jpeg")
-  
+    # Load the images
+    image1 = Image.open("WhatsApp Image 2023-07-25 at 6.21.24 PM (1).jpeg")
+    image2 = Image.open("teamwork2.jpg")
     image3 = Image.open("teamwork3.jpg")
-  
 
-    # Display the resized images with captions
+    # Display the images with captions
     st.image(image1, caption="Step 1: Planning", use_column_width=True)
     st.image(image2, caption="Step 2: Execution", use_column_width=True)
     st.image(image3, caption="Step 3: Review", use_column_width=True)
