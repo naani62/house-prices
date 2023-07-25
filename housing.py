@@ -1,3 +1,14 @@
+def main():
+    st.title("My App")
+
+    # Load the image
+    image = Image.open("button_JPG File (.jpg)")
+
+    # Add the image to a button
+    if st.button("image ", image=image):
+        st.write("Button clicked!")
+
+
 # Importing necessary libraries
 import numpy as np
 import pickle
@@ -8,15 +19,6 @@ import streamlit as st
 
 from PIL import Image
 from PIL import Image
-def main():
-    st.title("My App")
-
-    # Load the image
-    image = Image.open("button_JPG File (.jpg)")
-
-    # Add the image to a button
-    if st.button("image ", image=image):
-        st.write("Button clicked!")
 
 pickle_in = open("classifier.pkl","rb")
 classifier=pickle.load(pickle_in)
