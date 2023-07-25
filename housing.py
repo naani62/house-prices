@@ -104,8 +104,9 @@ def main():
 
 if __name__=='__main__':
     main()
-   from PIL import Image
+   
 
+from PIL import Image
 def main():
     st.title("California House Price Prediction using machine learning")
     image = Image.open('image_file.jpg')
