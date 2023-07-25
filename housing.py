@@ -163,9 +163,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-import streamlit as st
-from PIL import Image
-
 def main():
     st.title("My Image App")
 
