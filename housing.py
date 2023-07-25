@@ -112,11 +112,11 @@ def main():
 
     # Load the images
     image1 = Image.open("download.jpg")
-     image1 = image1.thumbnail((300, 300))
+    image1 = image1.thumbnail((300, 300))
     image2 = Image.open("download.jpg")
-     image2 = image2.thumbnail((300, 300))
+    image2 = image2.thumbnail((300, 300))
     image3 = Image.open("download.jpg")
-     image3 = image3.thumbnail((300, 300))
+    image3 = image3.thumbnail((300, 300))
 
     # Display the images with captions
     st.image(image1, caption="Work 1", use_column_width=True)
