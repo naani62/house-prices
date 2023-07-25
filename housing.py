@@ -1,14 +1,3 @@
-def main():
-    st.title("My App")
-
-    # Load the image
-    image = Image.open("button_JPG File (.jpg)")
-
-    # Add the image to a button
-    if st.button("image ", image=image):
-        st.write("Button clicked!")
-
-
 # Importing necessary libraries
 import numpy as np
 import pickle
