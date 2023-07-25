@@ -10,7 +10,7 @@ from PIL import Image
 from PIL import Image
 def main():
     st.title("California House Price Prediction using machine learning")
-    image = Image.open('JPG File (.jpg).jpg')
+    image = Image.open('JPG File (.jpg)')
     st.image(image, caption='California House Price Prediction', use_column_width=True)
 
     # Rest of the code   
